@@ -33,3 +33,32 @@ const myFunction = function () {
 }
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// **************** Memory *******************
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+let myName = "sushil"
+let AnotherName = myName
+// console.log(AnotherName);
+AnotherName ="sssss"
+
+// console.log(AnotherName);
+// console.log(myName);
+
+let numArr = [1,2,3,4,5,6,7,8,9]
+// console.log(numArr);
+let anotherNumArr = numArr
+anotherNumArr[1] = 88
+// console.log(anotherNumArr);
+// console.log(numArr);
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@bl",
+}
+let userTwo = userOne
+
+userTwo["email"] = "sushil@google.com"
+console.log(userTwo["email"]);
+console.log(userOne["email"]);
