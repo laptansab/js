@@ -27,6 +27,13 @@ const gameName = new String("sushil")
 // console.log(uName);
 // console.log(uName.trim());
 
-// const url = "https://sushil.com/sushil%20chaulagain"
+const url = "https://sushil.com/sushil%20chaulagain"
 // console.log(url);
 // console.log(url.replace('%20','-'));
+
+// console.log(url.includes("sushil"));
+
+const username = "Sushil-suraj-sunita"
+const usersName =username.split('-')
+// console.log(usersName); //[ 'Sushil', 'suraj', 'sunita' ]
+
