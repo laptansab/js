@@ -34,5 +34,32 @@ console.log(valueInNumber);
 let someNumber = 333
 
 let strringNumber = String(someNumber)
-console.log(strringNumber);
-console.log(typeof strringNumber);
+// console.log(strringNumber);
+// console.log(typeof strringNumber);
+
+// ************************** Operation****************
+
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+// console.log(2+2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2**5);
+// console.log(2/5);
+// console.log(2%3);
+
+let str1 = "hello "
+let str2 = "sushil"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2); ==> 12
+// console.log(1+ "2"); // ==> 12
+// console.log("1"+"2"); // ==> 12
+// console.log("1" + 2 + 2);// ==> 122
+// console.log(1 + 2 + "2");// ==> 32
+// console.log(3+((4*5)%3)); // for 3+4*5%3 ==> 5
+// console.log(3+(4*(5%3))); // ==> 11
