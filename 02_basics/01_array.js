@@ -33,13 +33,16 @@ const newArray = myArray.join();
 
 
 // slice, splice
-console.log("A",myArray);
 
-const myn1 = myArray.slice(1,3)
-console.log(myn1);
-console.log("B",myArray);
+// console.log("A",myArray);
 
-const myn2 = myArray.splice(1,3)
-console.log(myn2);
-console.log("C",myArray); 
+// const myn1 = myArray.slice(1,3)
+// console.log(myn1);
+// console.log("B",myArray);
+
+// const myn2 = myArray.splice(1,3)
+// console.log(myn2);
+// console.log("C",myArray); 
+
+
 
